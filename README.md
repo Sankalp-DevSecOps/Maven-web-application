@@ -2,11 +2,4 @@ Command to create maven "war" file to deploy webapp "mvn archetype:generate -Dgr
 
 Defult directory structure for maven "archetype = maven-archetype-webapp" to create "WAR" file to deploy.
 
-Maven-web-application/
-├── pom.xml
-└── src
-    └── main
-        └── webapp
-            ├── WEB-INF
-            │   └── web.xml
-            └── index.jsp
+![image](https://github.com/user-attachments/assets/a299759b-e14e-454b-9370-338266a24345)
