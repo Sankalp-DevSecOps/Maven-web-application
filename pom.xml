@@ -18,7 +18,19 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+  <distributionManagement>  
+    	<repository>
+    		<id>nexus</id>
+    		<name>neeltechjunction Releases Nexus Repo</name>
+    		<url>http://15.236.206.251:8081/repository/neeltechjunction-relase-repo/</url>
+    	</repository>
+    	
+    	<snapshotRepository>
+    		<id>nexus</id>
+    		<name>neeltechjunction IT Snapshots Nexus Repo</name>
+    		<url>http://15.236.206.251:8081/repository/neeltechjunction-Snapshot-repo/</url>
+    	</snapshotRepository>	
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
