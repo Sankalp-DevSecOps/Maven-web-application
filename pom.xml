@@ -22,13 +22,13 @@
     	<repository>
     		<id>nexus</id>
     		<name>Maven-web-application RELEASE Nexus Repo</name>
-    		<url>http://3.108.227.119:8081/repository/My-RELEASE-Repo/</url>
+    		<url>http://13.232.39.83:8081/repository/Maven-RELEASE-Repo/</url>
     	</repository>
     	
     	<snapshotRepository>
     		<id>nexus</id>
     		<name>Maven-web-application SNASHOT Nexus Repo</name>
-    		<url>http://3.108.227.119:8081/repository/My-SNASHOT-Repo/</url>
+    		<url>http://13.232.39.83:8081/repository/Maven-SNAPSHOT-Repo/</url>
     	</snapshotRepository>	
 </distributionManagement>
   <dependencies>
