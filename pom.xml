@@ -21,14 +21,14 @@
   <distributionManagement>  
     	<repository>
     		<id>nexus</id>
-    		<name>neeltechjunction Releases Nexus Repo</name>
-    		<url>http://15.236.206.251:8081/repository/neeltechjunction-relase-repo/</url>
+    		<name>Maven-web-application RELEASE Nexus Repo</name>
+    		<url>http://3.108.227.119:8081/repository/My-RELEASE-Repo/</url>
     	</repository>
     	
     	<snapshotRepository>
     		<id>nexus</id>
-    		<name>neeltechjunction IT Snapshots Nexus Repo</name>
-    		<url>http://15.236.206.251:8081/repository/neeltechjunction-Snapshot-repo/</url>
+    		<name>Maven-web-application SNASHOT Nexus Repo</name>
+    		<url>http://3.108.227.119:8081/repository/My-SNASHOT-Repo/</url>
     	</snapshotRepository>	
 </distributionManagement>
   <dependencies>
