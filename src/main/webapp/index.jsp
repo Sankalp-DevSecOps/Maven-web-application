@@ -11,6 +11,7 @@
   h2 {
     text-align: center;
     line-height: 1.6; /* Adjust this value if you want more or less spacing */
+    color: blue; /* Set text color to blue */
   }
 </style>
 </head>
